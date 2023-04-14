@@ -1,0 +1,46 @@
+.btn-main {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 50px;
+  height: 50px;
+  border: navajowhite;
+  padding: 0 30px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  color: $green;
+  background: $blue;
+  &:hover {
+    color: $blue;
+    outline: none;
+    background: $green;
+  }
+  &:active {
+    outline: none;
+    background: #00e590;
+  }
+  // &:focus {
+    
+  //   color: #00e590 !important;
+  // }
+}
+.btn-contact {
+  background: $green;
+  color: $blue;
+  &:hover {
+    color: $blue;
+    outline: none;
+    border-color: $white;
+
+    background: $white;
+  }
+  &:active {
+    outline: none;
+    background: $white;
+  }
+  &:focus {
+    
+     color: $blue !important;
+  }
+}

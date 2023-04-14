@@ -1,0 +1,19 @@
+label {
+  font-size: 16px;
+  color: $black;
+}
+.form-control {
+  height: 50px;
+  border: 1px solid $main-Lightest;
+  margin-bottom: 25px;
+  font-size: 18px;
+  outline: none;
+  padding: 0 20px;
+  color: $main-Lighter;
+  &:focus {
+    border-color: $main-color;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}

@@ -1,0 +1,157 @@
+/* fonts */
+
+@font-face {
+  font-family: "Madani Arabic";
+  src: url("../fonts/ar/MadaniArabic-Regular.eot");
+  src: local("Madani Arabic"), local("MadaniArabic-Regular"),
+    url("../fonts/ar/MadaniArabic-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ar/MadaniArabic-Regular.woff2") format("woff2"),
+    url("../fonts/ar/MadaniArabic-Regular.woff") format("woff"),
+    url("../fonts/ar/MadaniArabic-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Madani Arabic";
+  src: url("../fonts/ar/MadaniArabic-SemiBold.eot");
+  src: local("../fonts/ar/Madani Arabic Semi Bold"),
+    local("MadaniArabic-SemiBold"),
+    url("../fonts/ar/MadaniArabic-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ar/MadaniArabic-SemiBold.woff2") format("woff2"),
+    url("../fonts/ar/MadaniArabic-SemiBold.woff") format("woff"),
+    url("../fonts/ar/MadaniArabic-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Madani Arabic";
+  src: url("../fonts/ar/MadaniArabic-Medium.eot");
+  src: local("../fonts/ar/Madani Arabic Medium"), local("MadaniArabic-Medium"),
+    url("../fonts/ar/MadaniArabic-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ar/MadaniArabic-Medium.woff2") format("woff2"),
+    url("../fonts/ar/MadaniArabic-Medium.woff") format("woff"),
+    url("../fonts/ar/MadaniArabic-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Madani Arabic";
+  src: url("../fonts/ar/MadaniArabic-Bold.eot");
+  src: local("../fonts/ar/Madani Arabic Bold"), local("MadaniArabic-Bold"),
+    url("../fonts/ar/MadaniArabic-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ar/MadaniArabic-Bold.woff2") format("woff2"),
+    url("../fonts/ar/MadaniArabic-Bold.woff") format("woff"),
+    url("../fonts/ar/MadaniArabic-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html[lang="AR"] body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Madani Arabic", sans-serif;
+}
+html[lang="AR"] .switch-lang {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+html[lang="AR"] .right {
+  text-align: left !important;
+}
+html[lang="AR"] .footer-top .btn-main {
+  left: 14px;
+  right: auto;
+}
+html[lang="AR"] .social-links li {
+  margin-right: 0px;
+  margin-left: 25px;
+}
+html[lang="AR"] .number-marker {
+  margin-right: 0px;
+  margin-left: 40px;
+}
+html[lang="AR"] .items-list li img {
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+html[lang="AR"] .services-01 .service-item {
+  text-align: right;
+}
+html[lang="AR"] .contact-content {
+  text-align: right;
+}
+html[lang="AR"] .support-image {
+  right: auto;
+  left: 0px;
+}
+html[lang="AR"] .slogan-content {
+  text-align: right;
+}
+html[lang="AR"] .fa-long-arrow-alt-right:before {
+  content: "\f30a";
+}
+html[lang="AR"] .service-item a i {
+  margin-left: 0;
+  margin-right: 15px;
+}
+html[lang="AR"] .contact-item a i {
+  margin-left: 15px;
+  margin-right: 0px;
+}
+html[lang="AR"] .vueperslides {
+  direction: ltr;
+}
+
+html[lang="AR"] .vueperslides__arrow {
+  right: auto !important;
+  left: 28px;
+}
+html[lang="AR"] .vueperslides__arrow--prev {
+  left: 0px !important;
+  right: auto !important;
+}
+html[lang="AR"] .footer-links a {
+  font-size: 15px;
+}
+a:visited {
+  text-decoration: none;
+  color: none;
+  outline: none;
+}
+.footer-links a {
+  left: 0px !important;
+  right: auto !important;
+}
+
+/* offset-md */
+html[lang="AR"] .offset-md-1 {
+  margin-right: 8.333333%;
+  margin-left: 0;
+}
+html[lang="AR"] .offset-md-2 {
+  margin-right: 16.666667%;
+  margin-left: 0;
+}
+html[lang="AR"] .about-thumb {
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  html[lang="AR"] .about-thumb {
+    text-align: right !important;
+  }
+  html[lang="AR"] .offset-md-2 {
+    margin-right: 0;
+    margin-left: 0;
+}
+}

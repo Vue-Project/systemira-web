@@ -1,0 +1,25 @@
+.single-post {
+  max-width: 840px;
+  margin: auto;
+}
+.post-info {
+  a {
+    font-size: 18px;
+    color:$main-Lighter ;
+  }
+  h1 {
+    font-size: 32px;
+    padding: 20px 0;
+  }
+}
+.post-content{
+  p{
+    color: $main-color;
+  }
+}
+.single-post{
+  h3{
+    font-size: 24px;
+    color: $main-color;
+  }
+}

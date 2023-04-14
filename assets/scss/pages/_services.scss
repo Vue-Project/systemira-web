@@ -1,0 +1,95 @@
+.section-title {
+  max-width: 600px;
+  margin-bottom: 60px;
+  color: $main-color;
+  h3 {
+    font-size: 32px;
+  }
+}
+.service-item {
+  padding: 20px;
+  // height: 100%;
+  img {
+    max-width: 144px;
+  }
+
+  a {
+    font-size: 18px;
+    color: #021144;
+    font-weight: 500;
+    margin-bottom: 900px;
+
+    i {
+      margin-left: 15px;
+    }
+  }
+  h5{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  // &:hover {
+  //   box-shadow: 5px 5px 18px rgba(0, 26, 244, 0.21);
+  // }
+}
+.procces-number {
+  font-size: 120px;
+  font-weight: bold;
+  color: $main-theLightest;
+  position: relative;
+}
+.divider {
+  padding: 80px 0;
+  img{
+    width: 100%;
+  }
+
+  
+}
+.procces-box {
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+// .procces-steps {
+//   padding: 0 50px;
+//   padding-bottom: 40px;
+// }
+.slogan {
+  h1 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+  }
+}
+.services-01 {
+  .service-item {
+    a {
+      color: $blue;
+    }
+  }
+}
+.maintenance-service {
+  img {
+    max-width: 364px;
+  }
+}
+.maintenance-content {
+  max-width: 488px;
+  float: right;
+}
+.support-image {
+  position: absolute;
+  top: -75px;
+  right: 0;
+  img {
+    max-width: 770px;
+  }
+}
+.slogan-content{
+  max-width: 800px;
+  text-align: left;
+}

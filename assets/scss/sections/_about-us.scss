@@ -1,0 +1,32 @@
+.about-text ,.item-text {
+  color: $main-color;
+  margin-bottom: 30px;
+  h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  p {
+    line-height: 40px;
+  }
+  h5 {
+    font-size: 21px;
+  }
+ 
+  img{
+    min-width: 80px;
+    min-height: 80px;
+    
+  }
+  h4{
+    font-size: 21px;
+    color: $main-light;
+  }
+  h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    line-height: 30px;
+  }
+ 
+  
+}

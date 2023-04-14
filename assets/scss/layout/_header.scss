@@ -1,0 +1,45 @@
+.navbar-nav {
+  .nav-link {
+    padding: 0 16px !important;
+
+    // font-size: 18px;
+    font-weight: 500;
+
+    &:hover {
+      color: $green !important;
+    }
+  }
+  .nav-item {
+    margin-right: 16px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+.navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+}
+.switch-lang{
+  font-size: 18px;
+  font-weight: 500;
+
+  margin-right: 50px;
+  a{
+    color: $white;
+
+  }
+  i{
+    margin-right: 5px;
+    
+  }
+}
+.active {
+  color: $green !important;
+}
+.navbar-brand ,.footer-about{
+  img{
+    max-width: 145px;
+  }
+}

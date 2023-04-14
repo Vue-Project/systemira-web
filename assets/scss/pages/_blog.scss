@@ -1,0 +1,34 @@
+.post-desc {
+  padding: 30px;
+  // border: 1px solid $main-theLightest;
+  color: $main-color;
+  // margin-bottom: 60px;
+  a {
+    color: $blue;
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+}
+.blog-search {
+  margin-bottom: 80px;
+  .form-control {
+    border: none;
+    border-bottom: 1px solid $main-Lightest !important;
+    padding-bottom: 25px;
+  }
+}
+.search-resualts {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    color: $main-light;
+    background-color: $main-theLightest;
+    padding: 8px 15px;
+    margin-right: 15px;
+  }
+}

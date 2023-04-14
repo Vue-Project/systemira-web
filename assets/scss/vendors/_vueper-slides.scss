@@ -1,0 +1,45 @@
+.vueperslides__track,
+.vueperslides__inner {
+  max-height: 50px !important;
+}
+.vueperslides__arrow {
+  top: -35px !important;
+  right: 10px !important;
+  svg{
+    &:hover{
+      stroke: #001560 !important;
+    }
+
+  }
+  
+}
+.vueperslides__arrow--prev {
+  left: auto !important;
+  right: 40px !important;
+}
+
+.vueperslide {
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  &:hover{
+    transform: scale(0.9);
+    transition: transform .3s;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transition: transform .3s;
+    -moz-transition: transform .3s;
+    -ms-transition: transform .3s;
+    -o-transition: transform .3s;
+}
+}
+.vueperslides__arrow svg {
+  width: 24px !important;
+  height: 24px !important;
+  padding: 5px !important;
+  stroke-width: 2 !important;
+}
+button:focus {
+  outline: none;
+}

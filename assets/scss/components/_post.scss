@@ -1,0 +1,33 @@
+.post-item {
+  background: #fff;
+  border: 1px solid #eef2f4;
+  margin-bottom: 60px;
+  a {
+    color: $main-color;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+}
+.post-details {
+  padding: 24px;
+}
+.last-posts {
+  .post-item {
+    margin-bottom: 0px;
+    &:hover{
+      filter: drop-shadow(5px -5px 18px rgba(0, 26, 244, 0.21));
+
+    }
+}
+  .post-time{
+    max-width: 100%;
+
+    p{
+      font-size: 14px;
+    }
+  }
+}

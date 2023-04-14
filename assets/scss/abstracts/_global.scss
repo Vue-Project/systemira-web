@@ -1,0 +1,41 @@
+.singel-section {
+  padding: 160px 0;
+}
+.projects-section {
+  padding: 80px 0;
+}
+.slogan-section {
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+  h3 {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 40px;
+  }
+}
+
+.about-text,
+.item-text {
+  P {
+    color: $main-light;
+  }
+  h1 {
+    font-size: 32px;
+  }
+}
+.page-header {
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  p {
+    margin-bottom: 88px;
+  }
+}
+.elements-list {
+  padding-left: 20px;
+  li {
+    font-size: 18px;
+  }
+}

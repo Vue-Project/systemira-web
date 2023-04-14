@@ -1,0 +1,453 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Bold.eot");
+  src: url("../fonts/SpaceGrotesk-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SpaceGrotesk-Bold.woff2") format("woff2"),
+    url("../fonts/SpaceGrotesk-Bold.woff") format("woff"),
+    url("../fonts/SpaceGrotesk-Bold.ttf") format("truetype"),
+    url("../fonts/SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Medium.eot");
+  src: url("../fonts/SpaceGrotesk-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SpaceGrotesk-Medium.woff2") format("woff2"),
+    url("../fonts/SpaceGrotesk-Medium.woff") format("woff"),
+    url("../fonts/SpaceGrotesk-Medium.ttf") format("truetype"),
+    url("../fonts/SpaceGrotesk-Medium.svg#SpaceGrotesk-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Light.eot");
+  src: url("../fonts/SpaceGrotesk-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SpaceGrotesk-Light.woff2") format("woff2"),
+    url("../fonts/SpaceGrotesk-Light.woff") format("woff"),
+    url("../fonts/SpaceGrotesk-Light.ttf") format("truetype"),
+    url("../fonts/SpaceGrotesk-Light.svg#SpaceGrotesk-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Regular.eot");
+  src: url("../fonts/SpaceGrotesk-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SpaceGrotesk-Regular.woff2") format("woff2"),
+    url("../fonts/SpaceGrotesk-Regular.woff") format("woff"),
+    url("../fonts/SpaceGrotesk-Regular.ttf") format("truetype"),
+    url("../fonts/SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-SemiBold.eot");
+  src: url("../fonts/SpaceGrotesk-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SpaceGrotesk-SemiBold.woff2") format("woff2"),
+    url("../fonts/SpaceGrotesk-SemiBold.woff") format("woff"),
+    url("../fonts/SpaceGrotesk-SemiBold.ttf") format("truetype"),
+    url("../fonts/SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold")
+      format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* arabic */
+
+
+
+.ms-auto {
+  margin-left: auto !important;
+}
+
+.btn-ghost {
+  background-color: none;
+  border-color: #001560;
+}
+
+.service-item {
+  text-align: center;
+  /* margin-bottom: 90px; */
+}
+.service-item h2 {
+  font-size: 21px;
+}
+.service-item p {
+  margin-bottom: 40px;
+  color: #99a1bf;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+#footer h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.footer-links {
+  padding: 0;
+  list-style: none;
+}
+.footer-links li {
+  line-height: 30px;
+}
+.footer-links a {
+  color: #001560;
+  font-size: 16px;
+}
+
+.social-links {
+  padding: 0;
+}
+.social-links li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.footer-about .logo-footer {
+  margin-bottom: 30px;
+}
+
+.footer-about p {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* .contact-page {
+  padding: 120px; } */
+
+.conact-info {
+  padding-left: 30px;
+}
+/* .conact-info .contact-item {
+    margin-bottom: 30px; } */
+
+/* .single-post {
+  margin-top: 150px;
+} */
+.single-post .post-thumb {
+  margin-bottom: 50px;
+}
+.single-post .post-info {
+  margin-bottom: 50px;
+}
+.single-post h1 {
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+.single-post h2,
+.single-post h3,
+.single-post h4,
+.single-post h5,
+.single-post h6 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+.single-post ul {
+  padding-left: 20px;
+  list-style: none;
+}
+.single-post ul li {
+  position: relative;
+  font-size: 18px;
+  line-height: 2em;
+}
+.single-post ul li:before,
+.single-post div > li:before {
+  background-color: #0a60e8;
+  position: absolute;
+  top: 18px;
+  left: -20px;
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  transform: translateY(-50%);
+  content: "";
+}
+.post-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 260px;
+}
+
+.post-time p {
+  color: #99a1bf;
+  margin-bottom: 0;
+}
+.post-time .divider-line {
+  width: 1px;
+  min-height: 18px;
+  background: #CCD0DF;
+}
+
+.single-post p {
+  font-size: 18px;
+  /* margin-bottom: 30px; */
+  line-height: 1.8em;
+}
+
+.services-01 .section-header {
+  text-align: left;
+}
+
+.services-01.service-item {
+  text-align: left;
+}
+/* .services-02 .service-item .service-icon {
+  width: 60px;
+} */
+
+.services-01 .section-header {
+  text-align: left;
+}
+
+.services-01 .service-item {
+  text-align: left;
+}
+/* .services-02 .service-item .service-icon {
+  width: 60px;
+} */
+
+.services-03 .section-header {
+  text-align: left;
+}
+
+.services-03 .service-item {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 5px 20px rgba(190, 170, 170, 0.1);
+  margin-bottom: 30px;
+  text-align: left;
+}
+.services-03 .service-item .service-icon {
+  width: 60px;
+}
+
+.services-04 .section-header {
+  text-align: left;
+}
+
+.services-04 .service-item {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 5px 20px rgba(190, 170, 170, 0.1);
+  margin-bottom: 30px;
+  text-align: left;
+}
+.services-04 .service-item .service-icon {
+  width: 80px;
+}
+.services-04 .service-item ul {
+  padding-left: 20px;
+}
+.services-04 .service-item ul li {
+  font-size: 16px;
+  font-weight: 500;
+}
+.services-04 .service-item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.services-05 .section-header {
+  text-align: left;
+}
+
+.services-05 .service-item {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 5px 20px rgba(190, 170, 170, 0.1);
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+/* body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #001560;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 1.5rem;
+}
+
+.header-light {
+  background: #fff;
+  color: #001560;
+}
+.header-light .navbar-light .navbar-nav .nav-link {
+  color: #001560;
+}
+
+.header-dark {
+  background: #001560;
+}
+
+#hero {
+  color: #ffffff;
+  padding: 120px 0;
+}
+
+.bg-none {
+  background: rgba(0, 0, 0, 0);
+}
+
+.navbar {
+  padding: 40px 0;
+  font-weight: 500;
+}
+
+.navbar-btn {
+  background: #ffffff;
+  border-radius: 0;
+  padding: 10px 30px;
+  color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  /* padding: 8px 15px; */
+}
+
+/* .btn-main {
+  background: #ffffff;
+  border-radius: 0;
+  padding: 10px 30px;
+} */
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.common-section {
+  padding: 120px 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 88px;
+  color: #001560;
+}
+.section-header span {
+  display: block;
+  margin-bottom: 10px;
+}
+.section-header h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 32px;
+}
+.section-header h2::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(90deg, #31fea0, rgba(255, 255, 255, 1)) #31fea0;
+  right: 0;
+  bottom: -10px;
+}
+
+.bg-gray {
+  background: #f9fdff;
+}
+
+.work-item {
+  margin-bottom: 30px;
+}
+
+.work-item:hover {
+  cursor: pointer;
+}
+.work-item .work-thumb {
+  margin: 0;
+}
+.work-item .work-thumb img {
+  width: 100%;
+}
+
+.bg-green {
+  background: #00ffa0;
+}
+
+.color-dark {
+  color: #001560;
+}
+
+.action-section {
+  text-align: center;
+}
+
+.action-content h2 {
+  margin-bottom: 20px;
+}
+
+.action-content p {
+  margin-bottom: 30px;
+}
+
+.btn-blue {
+  background-color: #001af4;
+  color: #ffffff;
+}
+
+.page-header {
+  text-align: center;
+  color: #ffffff;
+  padding: 120px 0;
+  /* background: #7918f2; */
+}
+.procces-mobile ,.vision-mobile ,.uiux-mobile,.support-mobile,.maintenance-mobile,.update-mobile{
+  display: none;
+}
+
+

@@ -1,0 +1,26 @@
+.steps-list {
+  color: $main-color;
+  h3 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 48px;
+  }
+  h5{
+    font-size: 21px;
+  }
+  ul {
+    list-style: none;
+    li {
+      margin-bottom: 16px;
+      h6 {
+        font-size: 18px;
+        color: $blue;
+      }
+      p {
+        font-size: 16px;
+        line-height: 27px;
+        color: $main-Lighter;
+      }
+    }
+  }
+}
